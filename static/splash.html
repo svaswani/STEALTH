@@ -3,25 +3,26 @@
 
 <head>
     <title>Home</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/splash.css">
-
-    <script>
-        function init() {
-            var x = screen.height;
-            var bod = document.getElementById("background");
-            bod.style.height = x;
-            console.log(x);
-        }
-
-        window.onload = init;
-    </script>
 </head>
 
 <body>
     <main>
-        <div id="background">
-            <div class="layer">
+
+        <div class="background">
+        </div>
+        <div class="layer">
+            <div class="content">
+                <img alt="icon" src="images/favicon-splash.png">
+                <h1>stealth</h1>
+                <button class="log"> log in</button>
+                <button class="sign"> sign in </button>
+                <h2><a href="#">resources</a></h2>
             </div>
         </div>
     </main>
