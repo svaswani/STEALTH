@@ -55,10 +55,13 @@ img {
     margin-left: 30%;
     position: relative;
 }
-
+.butt{
+    position: relative;
+    /* margin-top: 0; */
+    top: -125px;
+    left: 44%;
+}
 button {
-    position: absolute;
-    margin-top: 23%;
     background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
@@ -69,12 +72,5 @@ button {
     font-family: 'Raleway', sans-serif;
     font-size: 3em;
     text-align: left;
-}
-
-.log {
-    margin-left: 2%;
-}
-
-.sign {
-    margin-left: 13%;
+    display: inline;
 }

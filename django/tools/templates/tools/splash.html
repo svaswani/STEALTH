@@ -9,6 +9,9 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../../static/css/splash.css">
+
+    <!-- Favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href='../../static/images/favicon.ico' />
 </head>
 
 <body>
@@ -19,10 +22,12 @@
         <div class="layer">
             <div class="content">
                 <img alt="icon" src="../../static/images/favicon-splash.png">
-                <h1>stealth</h1>
-                <a href="{% url 'login' %}"><button class="log">log in</button></a>
-                <a href="{% url 'register' %}"><button class="sign">sign up</button></a>
-                <h2><a href="{% url 'resources' %}">resources</a></h2>
+                    <h1>stealth</h1>
+                    <div class="butt">
+                        <a href="{% url 'login' %}"><button class="log">log in &#124;</button></a>
+                        <a href="{% url 'register' %}"><button class="sign">sign up  &#124;</button></a>
+                        <a href="{% url 'register' %}"><button class="about">about us </button></a>
+                    </div>
             </div>
         </div>
     </main>
