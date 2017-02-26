@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Stealth</title>
+    <title>Chat</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,6 +21,8 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../django/tools/static/css/nav.css">
 
+    <!-- Favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href='../django/tools/static/images/favicon.ico' />
 
 </head>
 
@@ -29,7 +31,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="{% url 'splash' %}">
-                    <img alt="Brand" src="../django/tools/static/images/favicon-brand.jpg">
+                    <img alt="Brand" src="../django/tools/static/images/favicon-brand.png">
                 </a>
 
             </div>
@@ -51,12 +53,6 @@
             </div>
     </nav>
     <div id="wrapper">
-        <div id="menu">
-            <p class="welcome">Welcome to stealth! <b></b></p>
-            <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
-            <div style="clear:both"></div>
-        </div>
-
         <div id="chatbox"></div>
 
         <!--<form name="message" action="">
