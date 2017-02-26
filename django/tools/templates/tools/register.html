@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% extends 'tools/base.html' %}
+{% block content %}
+
+<html>
+
+<body>
+<div class="ui one column stackable center aligned page vertically padded grid" style="padding-top:5%">
+    <div class="nine wide column" id="mainWelcomeColumn">
+        <div class="ui middle aligned center aligned grid">
+            <div class="row">
+                <div class="column">
+                    <h2 class="ui teal image header">
+                        <div class="content"> Account Registration</div>
+                    </h2>
+                    <form class="ui large form" action="" method="post">
+                        <div class="ui segment">
+                            <div class="field">
+                                {% csrf_token %}
+                                {{ form.as_p }}
+                            </div>
+                            <div class="ui fluid large buttons">
+                                <button class="ui button" type="button" onclick="window.history.back()">Cancel</button>
+                                <div class="or"></div>
+                                <button class="ui teal button" type="submit" >Create Account</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+
+</html>
+{% endblock %}
