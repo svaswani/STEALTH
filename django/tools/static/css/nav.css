@@ -240,3 +240,11 @@ header {
     background: none;
     margin-top: 30px;
 }
+
+.col-centered{
+    margin-left: 40%;
+}
+
+textarea{
+    display:block;
+}
