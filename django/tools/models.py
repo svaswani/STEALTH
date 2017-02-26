@@ -12,6 +12,12 @@ class Post(models.Model):
     def __str__(self):
         return str(self.name)
 
+class Comment(models.Model):
+    comment = models.CharField(max_length=50)
+
+    def __str__(self):
+        return str(self.name)
+
 class BaseUser( User ):
 
     address = models.CharField( max_length = 300 )

@@ -1,5 +1,5 @@
 from django import forms
-from tools.models import Post, BaseUser
+from tools.models import Post, BaseUser, Comment
 from django.contrib.auth.forms import UserCreationForm
 from django.forms import PasswordInput
 from django.forms import ModelForm
@@ -10,6 +10,12 @@ class PostForm(forms.ModelForm):
         title = forms.CharField()
         description = forms.CharField()
         fields = ['title', 'description']
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        comment = forms.CharField()
+        fields = ['comment']
 
 class accountCreation(UserCreationForm):
 
