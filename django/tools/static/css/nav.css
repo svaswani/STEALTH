@@ -1,0 +1,80 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    padding-bottom: 75px;
+}
+
+.navbar-default {
+    background-color: #009494;
+    height: 75px;
+    z-index: 10;
+}
+
+.navbar {
+    margin-bottom: 60px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f6f6f6;
+    font-size: 2em;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+}
+
+.navbar-nav {
+    float: left;
+}
+
+.my-text {
+    font-size: 2.5em;
+}
+
+.my-map {
+    z-index: -10;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .my-height {
+        margin-top: 15px;
+    }
+    .navbar-nav>li>a {
+        margin-top: 10px;
+    }
+}
+
+h1 {
+    font-size: 4em;
+    margin-left: 0;
+}
+
+h2 {
+    display: inline;
+}
+
+main {
+    color: #191919;
+}
+
+.btn-info {
+    color: #f6f6f6;
+    background-color: #009494;
+    border-color: #009494;
+    float: right;
+}
+
+.btn-info:hover {
+    background-color: #005e5e;
+}
+
+.btn-info:visited {
+    background-color: #005e5e;
+}
+
+.resources {
+    font-size: 1.5em;
+}
