@@ -1,16 +1,14 @@
 {% extends 'tools/base.html' %}
 {% block content %}
     <div class="container">
-        <h1>{{ tool.name }}</h1>
+        <h1>{{ tool.title }}</h1>
         <p>{{ tool.description }}</p>
+        <form enctype="multipart/form-data" action="" method="post">{% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Comment" />
+        </form>
         <div>
           <a href="{% url 'edit' tool.id %}" class="btn btn-sm btn-warning">Edit</a>
-        </div>
-        <div class="container">
-            <form enctype="multipart/form-data" action="" method="post">{% csrf_token %}
-                {{ form.as_p }}
-            <input type="submit" value="comment" />
-        </form>
         </div>
     </div>
 {% endblock %}

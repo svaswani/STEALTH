@@ -24,6 +24,9 @@ from .forms import *
 def index(request):
     return render(request, 'tools/index.html')
 
+def chat(request):
+    return render(request, 'tools/chat.html')
+
 def resources(request):
     return render(request, 'tools/resources.html')
 
@@ -33,6 +36,12 @@ def splash(request):
 def detail(request, tool_id):
     post = get_object_or_404(Post, pk=tool_id)
     return render(request, 'tools/detail.html', {'tool': post})
+
+def comment(request, post_id):
+    post = get_object_or_404(Post, pk=post_id)
+    return render(request, 'tools/detail.html', {'tool': post})
+
+
 
 def feed(request):
     posts = Post.objects.all()
@@ -51,7 +60,6 @@ class EditTool(UpdateView):
     template_name = 'tools/post_form.html'
 
     form_class = PostForm
-
 
 def login(request, template_name='tools/login.html',
               redirect_field_name=REDIRECT_FIELD_NAME,
