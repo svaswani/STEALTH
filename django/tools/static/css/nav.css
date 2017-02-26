@@ -240,3 +240,20 @@ header {
     background: none;
     margin-top: 30px;
 }
+
+.fa.fa-comment-o.fa-lg{
+    margin-top: -20px;
+    margin-right: 25px;
+}
+
+.fa.fa-star-o.fa-lg{
+    margin-top: -19px;
+}
+
+.fa.fa-star.fa-lg{
+    margin-top: -19px;
+}
+
+#panelPadding{
+    margin-bottom: 25px;
+}

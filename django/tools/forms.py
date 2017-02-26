@@ -15,6 +15,7 @@ class CommentForm(forms.ModelForm):
 
     class Meta:
         model = Comment
+        comment = forms.CharField(widget=forms.TextInput(attrs={'class': 'comment-description'}))
         fields = ['comment']
 
 class accountCreation(UserCreationForm):

@@ -1,15 +1,27 @@
 <script src="https://use.fontawesome.com/e3f752bc5b.js"></script>
+<script>
+    function onClick(){
+        var star = document.getElementById("star")
+        if (star.className === 'fa fa-star fa-lg') {
+            document.getElementById("star").className = 'fa fa-star-o fa-lg';
+        }else {
+            document.getElementById("star").className = 'fa fa-star fa-lg';
+        }
+    }
+</script>
 {% extends 'tools/base.html' %} {% block content %}
 <div class="container">
     <h1 class="f">{{ tool.title }}</h1> 
     <a href="{% url 'edit' tool.id %}" class="b" id="editButton"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
 </a>
-    <div class="panel panel-default">
+    <div class="panel panel-default" id="panelPadding">
         <div class="panel-body">
             {{ tool.description }}
         </div>
     </div>
-    <a class="a atest" href="{% url 'add_comment' pk=tool.pk %}">Add comment</a> {% for comment in comments.all %}
+    <a class="a atest" href="{% url 'add_comment' pk=tool.pk %}"><i class="fa fa-comment-o fa-lg" aria-hidden="true"></i>
+        <a class="a atest"><i onClick="onClick()" id="star" class="fa fa-star-o fa-lg" aria-hidden="true"></i></button>
+</a> {% for comment in comments.all %}
     <div class="panel panel-default comment">
         <div class="panel-body date">
             {{ comment }}
