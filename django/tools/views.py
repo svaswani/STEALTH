@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.utils.datetime_safe import datetime
 from django.views.generic.edit import CreateView, UpdateView
 from .models import Post
@@ -24,6 +24,20 @@ from .forms import *
 def index(request):
     return render(request, 'tools/index.html')
 
+def add_comment(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    if request.method == "POST":
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.post = post
+            comment.save()
+            return HttpResponseRedirect( '/' + pk )
+    else:
+        form = CommentForm()
+    return render(request, 'tools/comment.html', {'form': form})
+
+
 def chat(request):
     return render(request, 'tools/chat.html')
 
@@ -34,13 +48,16 @@ def splash(request):
     return render(request, 'tools/splash.html')
 
 def detail(request, tool_id):
+    comments = Comment.objects.all()
     post = get_object_or_404(Post, pk=tool_id)
-    return render(request, 'tools/detail.html', {'tool': post})
+    return render(request, 'tools/detail.html', {'tool': post, 'comments': comments})
 
-def comment(request, post_id):
-    post = get_object_or_404(Post, pk=post_id)
-    return render(request, 'tools/detail.html', {'tool': post})
+class CreateComment(CreateView):
 
+    model = Comment
+    template_name = 'tools/comment.html'
+
+    form_class = CommentForm
 
 
 def feed(request):
@@ -60,6 +77,7 @@ class EditTool(UpdateView):
     template_name = 'tools/post_form.html'
 
     form_class = PostForm
+
 
 def login(request, template_name='tools/login.html',
               redirect_field_name=REDIRECT_FIELD_NAME,

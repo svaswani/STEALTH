@@ -12,11 +12,12 @@ class Post(models.Model):
         return str(self.name)
 
 class Comment(models.Model):
-    comment = models.CharField(max_length=50)
-    post = models.ForeignKey(Post, on_delete=models.CASCADE)
+    comment = models.TextField()
+    post = models.ForeignKey(Post, related_name='comment')
+
 
     def __str__(self):
-        return str(self.name)
+        return str(self.comment)
 
 
 class BaseUser( User ):

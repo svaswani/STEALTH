@@ -12,9 +12,9 @@ class PostForm(forms.ModelForm):
         fields = ['title', 'description']
 
 class CommentForm(forms.ModelForm):
+
     class Meta:
         model = Comment
-        comment = forms.CharField()
         fields = ['comment']
 
 class accountCreation(UserCreationForm):
