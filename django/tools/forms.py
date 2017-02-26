@@ -11,6 +11,16 @@ class PostForm(forms.ModelForm):
         description = forms.CharField()
         fields = ['title', 'description']
 
+        def __init__(self, *args, **kwargs):
+            super(ModelForm, self).__init__(*args, **kwargs)
+
+            for key in self.fields:
+                self.fields[key].required = True
+                self.fields[key].help_text = None
+
+            self.fields['title'].widget.attrs.update({'class': 'post-title'})
+            self.fields['description'].widget.attrs.update({'class': 'post-description'})
+
 class CommentForm(forms.ModelForm):
 
     class Meta:
