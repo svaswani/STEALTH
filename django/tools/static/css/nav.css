@@ -219,3 +219,7 @@ header {
     float: none;
     margin: 0 auto;
 }
+
+.post-title{
+    display: block;
+}

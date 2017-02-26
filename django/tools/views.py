@@ -44,6 +44,9 @@ def chat(request):
 def about(request):
     return render(request, 'tools/about.html')
 
+def profile(request):
+    return render(request, 'tools/profile.html')
+
 def resources(request):
     return render(request, 'tools/resources.html')
 
