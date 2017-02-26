@@ -1,0 +1,18 @@
+{% extends 'tools/base.html' %}
+{% block content %}
+    <div class="container">
+        <h1>{{ tool.name }}</h1>
+        <p>{{ tool.description }}</p>
+        {% if tool.isAvailable %}
+            <i class="fa fa-check-circle" aria-hidden="true"></i> Available
+        {% else %}
+            <i class="fa fa-times-circle" aria-hidden="true"></i> Not Available
+        {% endif %}
+        <div>
+          <img src="{{ tool.model_pic.url }}" width=100px/>
+        </div>
+        <div>
+          <a href="{% url 'edit' tool.id %}" class="btn btn-sm btn-warning">Edit</a>
+        </div>
+    </div>
+{% endblock %}
