@@ -80,7 +80,7 @@ main {
 }
 
 
-/* CSS Document */
+/* Chat */
 
 form, p, span {
     margin: 0;
@@ -137,7 +137,7 @@ a:hover {
     width: 60px;
 }
 
-button{
+button {
     margin: 10px;
 }
 
@@ -157,7 +157,10 @@ button{
     margin: 0 0 2px 0;
 }
 
-img{
+
+/* About */
+
+img {
     /*display: inline;*/
     margin-bottom: 3em;
 }
@@ -170,12 +173,43 @@ p.about {
     font-size: 1.5em;
 }
 
-h3{
+h3 {
     font-size: 3em;
-    color:#005e5e;
+    color: #005e5e;
     margin-bottom: 30px;
 }
 
-.c{
+.c {
     margin-bottom: 50px;
+}
+
+
+/* Feed */
+
+.b {
+    display: inline;
+    float: right;
+    color: #005e5e;
+}
+
+.f {
+    display: inline;
+}
+
+.a {
+    text-decoration: none;
+    color: #005e5e;
+}
+
+.atest {
+    float: right;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.e {
+    margin: 15px 0 0 15px;
+    position: absolute;
 }
