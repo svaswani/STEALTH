@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95518f89-5307-49b1-8cba-a757637111f5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tools/static/css/nav.css" afterPath="$PROJECT_DIR$/django/tools/static/css/nav.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tools/templates/tools/feed.html" afterPath="$PROJECT_DIR$/django/tools/templates/tools/feed.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,77 +18,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django/tools/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django/tools/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="feed.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/feed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="8" column="72" lean-forward="false" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/detail.html">
+      <file leaf-file-name="nav.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/tools/static/css/nav.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django/tools/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-              <folding>
-                <marker date="1488124478000" expanded="true" signature="70:793" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django/tools/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/comment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <state relative-caret-position="1174">
+              <caret line="230" column="4" lean-forward="false" selection-start-line="230" selection-start-column="4" selection-end-line="230" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -138,6 +83,7 @@
         <option value="$PROJECT_DIR$/django/tools/urls.py" />
         <option value="$PROJECT_DIR$/django/tools/views.py" />
         <option value="$PROJECT_DIR$/django/tools/forms.py" />
+        <option value="$PROJECT_DIR$/django/tools/static/css/nav.css" />
         <option value="$PROJECT_DIR$/django/tools/templates/tools/feed.html" />
       </list>
     </option>
@@ -252,7 +198,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MediTool" />
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,7 +216,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChatBot" />
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STEALTH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STEALTH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediTool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -568,6 +548,18 @@
           <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
+            <marker date="1488125587000" expanded="true" signature="1402:1453" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1475:1523" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1554:1724" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1871:1966" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1997:2085" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2114:2206" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2423:3519" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2593:3063" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2684:3063" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="3180:3319" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="3577:3776" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="3652:3776" ph="..." />
           </folding>
         </state>
       </provider>
@@ -612,6 +604,18 @@
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="10" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
+            <marker date="1488125587000" expanded="true" signature="1402:1453" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1475:1523" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1554:1724" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1871:1966" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1997:2085" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2114:2206" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2423:3519" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2593:3063" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2684:3063" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="3180:3319" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="3577:3776" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="3652:3776" ph="..." />
           </folding>
         </state>
       </provider>
@@ -621,7 +625,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488124478000" expanded="true" signature="70:793" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="70:848" ph="..." />
           </folding>
         </state>
       </provider>
@@ -761,9 +765,9 @@
     <entry file="file://$PROJECT_DIR$/django/tools/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
           <folding>
-            <marker date="1488124478000" expanded="true" signature="70:793" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="70:848" ph="..." />
           </folding>
         </state>
       </provider>
@@ -779,9 +783,21 @@
     <entry file="file://$PROJECT_DIR$/django/tools/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
+            <marker date="1488125587000" expanded="true" signature="1402:1453" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1475:1523" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1554:1724" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1871:1966" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="1997:2085" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2114:2206" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2423:3519" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2593:3063" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="2684:3063" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="3180:3319" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="3577:3776" ph="..." />
+            <marker date="1488125587000" expanded="true" signature="3652:3776" ph="..." />
           </folding>
         </state>
       </provider>
@@ -796,10 +812,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/django/tools/static/css/splash.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/tools/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17513">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/tools/static/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1174">
+          <caret line="230" column="4" lean-forward="false" selection-start-line="230" selection-start-column="4" selection-end-line="230" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/feed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="8" column="72" lean-forward="false" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
           <folding />
         </state>
       </provider>

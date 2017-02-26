@@ -2,11 +2,11 @@
 <script>
     function onClick(){
         var star = document.getElementById("like")
-        if (star.className === 'fa fa-star') {
-            document.getElementById("like").className = 'fa fa-star-o';
+        if (star.className === 'fa fa-star fa-2x') {
+            document.getElementById("like").className = 'fa fa-star-o fa-2x';
 
         }else {
-            document.getElementById("like").className = 'fa fa-star';
+            document.getElementById("like").className = 'fa fa-star fa-2x';
         }
     }
 
@@ -20,7 +20,7 @@
     {% for post in posts %}
     <div class="panel panel-default">
         <div class="panel-heading">
-            <button class="b" ><i onClick="onClick()" id="like" class="fa fa-star-o" aria-hidden="true"></i></button>
+            <button class="b" id="likeButton"><i onClick="onClick()" id="like" class="fa fa-star-o fa-2x" aria-hidden="true"></i></button>
             <a class="a" href="{% url 'detail' post.id %}">
                 <div>{{ post.title }}</div>
             </a>
