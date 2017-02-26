@@ -1,7 +1,9 @@
+<script src="https://use.fontawesome.com/e3f752bc5b.js"></script>
 {% extends 'tools/base.html' %} {% block content %}
 <div class="container">
     <h1 class="f">{{ tool.title }}</h1> 
-    <a href="{% url 'edit' tool.id %}" class="btn btn-sm btn-warning e">Edit</a>
+    <a href="{% url 'edit' tool.id %}" class="b" id="editButton"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+</a>
     <div class="panel panel-default">
         <div class="panel-body">
             {{ tool.description }}

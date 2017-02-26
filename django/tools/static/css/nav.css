@@ -230,3 +230,10 @@ header {
     border: none;
     background: none;
 }
+
+#editButton{
+    border: none;
+    background: none;
+    margin-top: 30px;
+}
+
