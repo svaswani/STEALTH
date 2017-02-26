@@ -119,22 +119,26 @@ a:hover {
 #chatbox {
     text-align: left;
     margin: 0 auto;
-    margin-bottom: 25px;
     padding: 10px;
-    background: #F6F6F6;
-    height: 270px;
-    width: 430px;
-    border: 1px solid #191919;
+    background-color: rgba(0, 148, 149, .25);
+    height: 400px;
+    width: 100%;
+    border: 1px solid #f6f6f6;
     overflow: auto;
 }
 
 #usermsg {
     width: 395px;
-    border: 1px solid #ACD8F0;
+    border: 1px solid #f6f6f6;
+    margin: 10px;
 }
 
 #submit {
     width: 60px;
+}
+
+button{
+    margin: 10px;
 }
 
 .error {

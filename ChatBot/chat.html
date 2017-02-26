@@ -69,12 +69,14 @@
             baseUrl = "https://api.api.ai/v1/";
 
         function writeToChatbox(sender, message) {
+
             var chatbox = $("#chatbox");
             var start = chatbox[0].innerText;
             if (start.length > 0) {
                 start += "\n";
             }
             start += sender + ": ";
+            
             chatbox[0].innerText = start + message;
         }
 
