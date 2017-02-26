@@ -224,3 +224,19 @@ header {
     margin: 0 auto;
 }
 
+.post-title{
+    display: block;
+}
+
+#likeButton{
+    margin-top: -6px;
+    margin-right: -10px;
+    border: none;
+    background: none;
+}
+
+#editButton{
+    border: none;
+    background: none;
+    margin-top: 30px;
+}
