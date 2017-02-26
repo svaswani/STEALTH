@@ -3,10 +3,16 @@
     <div class="container">
         <h1>{{ tool.title }}</h1>
         <p>{{ tool.description }}</p>
-        <form enctype="multipart/form-data" action="" method="post">{% csrf_token %}
-            {{ form.as_p }}
-            <input type="submit" value="Comment" />
-        </form>
+
+<a href="{% url 'add_comment' pk=tool.pk %}">Add comment</a>
+
+        {% for comment in comments.all %}
+    <div class="comment">
+        <div class="date">{{ comment }}</div>
+    </div>
+{% empty %}
+    <p>No comments here yet :(</p>
+{% endfor %}
         <div>
           <a href="{% url 'edit' tool.id %}" class="btn btn-sm btn-warning">Edit</a>
         </div>

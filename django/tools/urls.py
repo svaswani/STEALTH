@@ -11,7 +11,7 @@ urlpatterns = [
     url(r'^resources/$', views.resources, name='resources'),
     url(r'^splash/$', views.splash, name='splash'),
     url(r'^(?P<tool_id>[0-9]+)/$', views.detail, name='detail'),
-    url(r'^comment/(?P<tool_id>[0-9]+)/$', views.comment, name='comment'),
+    url(r'^(?P<pk>\d+)/comment/$', views.add_comment, name='add_comment'),
     url(r'^create/$', views.CreateTool.as_view(success_url="/"), name='create'),
     url(r'^edit/(?P<pk>[0-9]+)/$', views.EditTool.as_view(success_url="/"), name='edit')
 ]
