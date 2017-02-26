@@ -52,16 +52,11 @@ a{
 
 img {
     margin-top: 15%;
-    margin-left: 30%;
-    position: relative;
-}
-.butt{
-    position: relative;
-    /* margin-top: 0; */
-    top: -125px;
-    left: 44%;
+    margin-left: 33.333%;
 }
 button {
+    position: relative;
+    top: -125px;
     background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
@@ -70,7 +65,12 @@ button {
     outline: none;
     color: #f6f6f6;
     font-family: 'Raleway', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     text-align: left;
     display: inline;
+    margin-left:0;
+}
+
+.log{
+    margin-left: 2%;
 }

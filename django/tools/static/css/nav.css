@@ -6,6 +6,10 @@ nav {
     padding-bottom: 75px;
 }
 
+input{
+    display: block !important;
+}
+
 .navbar-default {
     background-color: #009494;
     height: 75px;
@@ -220,6 +224,3 @@ header {
     margin: 0 auto;
 }
 
-.post-title{
-    display: block;
-}
