@@ -50,8 +50,8 @@ def profile(request):
 def resources(request):
     return render(request, 'tools/resources.html')
 
-def splash(request):
-    return render(request, 'tools/splash.html')
+def map(request):
+    return render(request, 'tools/map_index.html')
 
 def detail(request, tool_id):
     comments = Comment.objects.all()
