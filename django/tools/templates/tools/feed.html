@@ -1,3 +1,16 @@
+<script src="https://use.fontawesome.com/e3f752bc5b.js"></script>
+<script>
+    function onClick(){
+        var star = document.getElementById("like")
+        if (star.className === 'fa fa-star') {
+            document.getElementById("like").className = 'fa fa-star-o';
+
+        }else {
+            document.getElementById("like").className = 'fa fa-star';
+        }
+    }
+
+</script>
 {% extends 'tools/base.html' %} {% block content %}
 <div class="container">
     <header>
@@ -7,10 +20,10 @@
     {% for post in posts %}
     <div class="panel panel-default">
         <div class="panel-heading">
+            <button class="b" ><i onClick="onClick()" id="like" class="fa fa-star-o" aria-hidden="true"></i></button>
             <a class="a" href="{% url 'detail' post.id %}">
                 <div>{{ post.title }}</div>
             </a>
-
         </div>
         <div class="panel-body">
             {{ post.description }}
