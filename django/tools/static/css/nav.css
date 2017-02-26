@@ -156,3 +156,26 @@ button{
 .msgln {
     margin: 0 0 2px 0;
 }
+
+img{
+    /*display: inline;*/
+    margin-bottom: 3em;
+}
+
+p.about {
+    margin: 0;
+    float: right;
+    padding: 10px;
+    width: 80%;
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 3em;
+    color:#005e5e;
+    margin-bottom: 30px;
+}
+
+.c{
+    margin-bottom: 50px;
+}

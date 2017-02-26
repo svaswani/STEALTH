@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>About Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../../static/css/nav.css">
+
+    <!-- Favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href='../../static/images/favicon.ico' />
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Brand" src="../../static/images/favicon-brand.png">
+                </a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="my-text"><a href="{% url 'index' %}">stealth</a></li>
+                </ul>
+                <div class="my-height">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="{% url 'feed' %}">feed</a></li>
+                        <li><a href="#">resources</a></li>
+                        <li><a href="#">chat</a></li>
+                        <li><a href="#">search</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">profile</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1>About stealth</h1>
+
+            <h3>Every 98 seconds, an American is sexually assaulted.</h3>
+
+            <div class="c" id="network">
+                <img src="../../static/images/network-connection-vector-icon--networking-icons--icons-download-24.png" alt="network">
+                <p class="about">Because of this statistic, we felt it was important for us to create a sort of social media support network
+                    for those who experience everything from inappropriate comments in the workplace and at school, to sexual
+                    assault.
+                </p>
+            </div>
+
+            <div  class="c" id="map">
+                <img src="../../static/images/map-8.png" alt="map">
+                <p class="about">Our map feature will show you local resources, from health clinics to law offices. By giving users the option
+                    to enter their own zip code, we don’t have to use the location of the user to help them feel more secure.
+                </p>
+            </div>
+
+            <div  class="c" id="feed">
+                <img src="../../static/images/feed.png" alt="feed">
+                <p class="about">Our website has a feed where users can post and comment on the experiences of others. By authenticating a
+                    users profile and requiring log-in to post, as well as having a comprehensive report and block feature,
+                    we are providing our users with safety. The anonymous posting option also allows users to stay anonymous,
+                    however they are promoted to keep specific identifiers out of their posts in case someone involved or
+                    someone they know also happens to be on this site, too.</p>
+            </div>
+
+            <div  class="c" id="resources">
+                <img src="../../static/images/resource.png" alt="resource">
+                <p class="about">The resources tab offers external resources for a wide range of services, from government-sponsored departments
+                    to online chats and hotlines available 24/7. We hope our users can find what they need and we realize
+                    we are not the only site that can provide them with the support they require.</p>
+            </div>
+
+            <div class="c"  id="chatbot">
+                <img src="../../static/images/stella.png" alt="stella">
+                <p class="about">Our AI Chat bot, Stella, can provide you with other specific resource based on the information you provide
+                    it. If you give Stella your zip code and ask it for legal advice, Stella can link you to the website
+                    of a local law office that can provide you with the assistance you need.</p>
+            </div>
+
+            <div  class="c" id="profile">
+                <img src="../../static/images/profile-icon-9.png" alt="profile">
+                <p class="about">Your profile page will keep track of all the posts you make and follow, even if you have done so anonymously.
+                    This way, you are able to go back to see if someone has offered you any support or has any ideas for
+                    how you can handle the situation. </p>
+            </div>
+
+            <div class="c" id="name">
+                <img src="../../static/images/kcMnbMeAi.png" alt="ribbon">
+                <p class="about">Our name, stealth, is a reference to the teal used for the Sexual Assault Awareness ribbon (imagine: sTEALth)
+                    and the fact that users may want to keep their identities and stories private, or stealthy if you will.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
