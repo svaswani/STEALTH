@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/splash.css">
+    <link rel="stylesheet" href="../../static/css/splash.css">
 </head>
 
 <body>
@@ -18,10 +18,10 @@
         </div>
         <div class="layer">
             <div class="content">
-                <img alt="icon" src="images/favicon-splash.png">
+                <img alt="icon" src="../../static/images/favicon-splash.png">
                 <h1>stealth</h1>
-                <button class="log"> log in</button>
-                <button class="sign"> sign in </button>
+                <a href="{% url 'login' %}"><button class="log">log in</button></a>
+                <a href="{% url 'register' %}"><button class="sign">sign up</button></a>
                 <h2><a href="#">resources</a></h2>
             </div>
         </div>
