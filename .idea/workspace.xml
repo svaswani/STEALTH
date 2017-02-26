@@ -2,13 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95518f89-5307-49b1-8cba-a757637111f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django/tools/templates/tools/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django/tools/templates/tools/register.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/.versions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/accordion.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/accordion.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/ad.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/ad.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/api.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/breadcrumb.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/breadcrumb.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/button.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/button.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/card.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/card.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/checkbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/checkbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/checkbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/colorize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/colorize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/comment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/comment.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/container.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/container.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/dimmer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/dimmer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/dimmer.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/dimmer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/divider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/divider.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/dropdown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/dropdown.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/dropdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/embed.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/embed.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/embed.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/feed.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/feed.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/flag.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/flag.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/form.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/form.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/header.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/header.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/icon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/icon.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/image.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/input.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/input.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/item.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/item.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/label.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/label.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/list.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/list.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/loader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/loader.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/menu.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/message.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/message.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/modal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/modal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/modal.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/nag.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/nag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/nag.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/nag.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/popup.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/progress.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/progress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/progress.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/progress.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/rail.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/rail.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/rating.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/rating.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/rating.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/rating.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/reset.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/reveal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/reveal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/search.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/search.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/search.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/segment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/segment.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/shape.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/shape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/shape.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/shape.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/sidebar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/sidebar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/sidebar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/site.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/site.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/site.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/state.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/statistic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/statistic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/step.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/step.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/sticky.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/sticky.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/sticky.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/tab.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/tab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/tab.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/table.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/table.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/transition.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/transition.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/transition.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/video.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/video.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/video.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/visibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/visibility.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/visit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/components/visit.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/semantic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/semantic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/semantic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/semantic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/themes/default/assets/fonts/icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/themes/default/assets/fonts/icons.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/themes/default/assets/fonts/icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/themes/default/assets/fonts/icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/themes/default/assets/fonts/icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/themes/default/assets/fonts/icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/themes/default/assets/images/flags.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/nav.css" afterPath="$PROJECT_DIR$/django/tools/static/css/nav.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/splash.css" afterPath="$PROJECT_DIR$/django/tools/static/css/splash.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/images/favicon-brand.png" afterPath="$PROJECT_DIR$/django/tools/static/images/favicon-brand.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/images/favicon-splash.png" afterPath="$PROJECT_DIR$/django/tools/static/images/favicon-splash.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/images/map.jpg" afterPath="$PROJECT_DIR$/django/tools/static/images/map.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/images/stealth.png" afterPath="$PROJECT_DIR$/django/tools/static/images/stealth.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/resources.html" afterPath="$PROJECT_DIR$/django/tools/templates/tools/resources.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/splash.html" afterPath="$PROJECT_DIR$/django/tools/static/splash.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tools/forms.py" afterPath="$PROJECT_DIR$/django/tools/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tools/models.py" afterPath="$PROJECT_DIR$/django/tools/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tools/templates/tools/base.html" afterPath="$PROJECT_DIR$/django/tools/templates/tools/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tools/templates/tools/index.html" afterPath="$PROJECT_DIR$/django/tools/templates/tools/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tools/urls.py" afterPath="$PROJECT_DIR$/django/tools/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/tools/views.py" afterPath="$PROJECT_DIR$/django/tools/views.py" />
     </list>
@@ -28,15 +187,24 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django/tools/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+            <state relative-caret-position="405">
+              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
-                <element signature="e#682#724#0" expanded="false" />
-                <element signature="e#760#866#0" expanded="false" />
-                <element signature="e#891#981#0" expanded="false" />
-                <element signature="e#1139#1221#0" expanded="false" />
+                <element signature="e#836#942#0" expanded="false" />
+                <element signature="e#967#1057#0" expanded="false" />
+                <element signature="e#1215#1297#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resources.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/resources.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,8 +222,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/tools/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="105">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -96,8 +264,18 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="42" column="55" lean-forward="false" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+            <state relative-caret-position="79">
+              <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,6 +294,7 @@
     <findStrings>
       <find>user</find>
       <find>template_name</find>
+      <find>session</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,11 +312,12 @@
         <option value="$PROJECT_DIR$/django/tools/templates/tools/post_form.html" />
         <option value="$PROJECT_DIR$/django/tools/models.py" />
         <option value="$PROJECT_DIR$/django/tools/templates/tools/index.html" />
-        <option value="$PROJECT_DIR$/django/tools/urls.py" />
         <option value="$PROJECT_DIR$/django/tools/forms.py" />
         <option value="$PROJECT_DIR$/django/tools/templates/tools/register.html" />
         <option value="$PROJECT_DIR$/django/tools/templates/tools/login.html" />
+        <option value="$PROJECT_DIR$/django/tools/templates/tools/resources.html" />
         <option value="$PROJECT_DIR$/django/tools/templates/tools/base.html" />
+        <option value="$PROJECT_DIR$/django/tools/urls.py" />
         <option value="$PROJECT_DIR$/django/tools/views.py" />
       </list>
     </option>
@@ -235,8 +415,26 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STEALTH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STEALTH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,6 +454,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/django/tools/static" />
+      <recent name="$PROJECT_DIR$/django/tools/static/css" />
       <recent name="$PROJECT_DIR$/django/tools/templates/tools" />
     </key>
   </component>
@@ -495,7 +695,7 @@
     <frame x="0" y="23" width="1280" height="689" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -503,7 +703,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -532,10 +732,9 @@
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="10" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
-            <element signature="e#682#724#0" expanded="false" />
-            <element signature="e#760#866#0" expanded="false" />
-            <element signature="e#891#981#0" expanded="false" />
-            <element signature="e#1139#1221#0" expanded="false" />
+            <element signature="e#836#942#0" expanded="false" />
+            <element signature="e#967#1057#0" expanded="false" />
+            <element signature="e#1215#1297#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -604,14 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/feed.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -644,34 +835,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/tools/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="24" column="83" lean-forward="false" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -686,24 +861,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/resources.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/django/tools/templates/tools/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="42" column="55" lean-forward="false" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+        <state relative-caret-position="79">
+          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/tools/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/django/tools/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        <state relative-caret-position="405">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
-            <element signature="e#682#724#0" expanded="false" />
-            <element signature="e#760#866#0" expanded="false" />
-            <element signature="e#891#981#0" expanded="false" />
-            <element signature="e#1139#1221#0" expanded="false" />
+            <element signature="e#836#942#0" expanded="false" />
+            <element signature="e#967#1057#0" expanded="false" />
+            <element signature="e#1215#1297#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -24,6 +24,9 @@ from .forms import *
 def index(request):
     return render(request, 'tools/index.html')
 
+def resources(request):
+    return render(request, 'tools/resources.html')
+
 def detail(request, tool_id):
     post = get_object_or_404(Post, pk=tool_id)
     return render(request, 'tools/detail.html', {'tool': post})
