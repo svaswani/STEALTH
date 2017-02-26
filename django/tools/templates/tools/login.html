@@ -1,56 +1,34 @@
-{% extends "tools/base.html" %}
-{% block content %}
+{% extends "tools/base.html" %} {% block content %}
 
 <body>
-<!-- needs to be moved base.html -->
-<div class="ui one column stackable center aligned page vertically padded grid" style="padding-top:8%">
-    <div class="nine wide column" id="mainWelcomeColumn">
-        <div class="ui middle aligned center aligned grid">
-            <div class="row">
-                <div class="column">
-                    {% if form.errors %}
-                    <p>Your username and password didn't match. Please try again.</p>
-                    {% endif %}
-                    {% if next %}
-                    {% if user.is_authenticated %}
-                    <p>Your account doesn't have access to this page. To proceed,
-                        please login with an account that has access.</p>
-                    {% else %}
-                    <p>Please login to see this page.</p>
-                    {% endif %}
-                    {% endif %}
-                    <h2 class="ui teal image header">
-                        <div class="content"> Account Log-in</div>
-                    </h2>
-                    <form class="ui large form" method="post" action="{% url 'login' %}">{% csrf_token %}
-                        <div class="ui segment">
-                            <div class="field">
-                                <div class="ui left icon input">
-                                    <i class="user icon"></i>
-                                    <input type="text" name="username" placeholder="Username">
-                                </div>
-                            </div>
-                            <div class="field">
-                                <div class="ui left icon input">
-                                    <i class="lock icon"></i>
-                                    <input type="password" name="password" placeholder="Password">
-                                </div>
-                            </div>
-                            <input type="submit" value="Login" class="ui fluid large teal submit button"/>
-                            <input type="hidden" name="next" value="{{ next }}"/>
-                        </div>
-                        <div class="ui error message"></div>
-                    </form>
-                </div>
-            </div>
-            <div class="ui teal message">
-                Don't have an account?
-                <a href="{% url 'register' %}">Sign Up</a>
+    <!-- needs to be moved base.html -->
+    <main>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-centered">
+                {% if form.errors %}
+                <p>Your username and password didn't match. Please try again.</p>
+                {% endif %} {% if next %} {% if user.is_authenticated %}
+                <p>Your account doesn't have access to this page. To proceed, please login with an account that has access.</p>
+                {% else %}
+                <p>Please login to see this page.</p>
+                {% endif %} {% endif %}
+                <h3> Account Log-in
+                </h3>
+                <form method="post" action="{% url 'login' %}">{% csrf_token %}
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="password" name="password" placeholder="Password">
+
+                    <input type="submit" value="Login" class="ui fluid large teal submit button" />
+                    <input type="hidden" name="next" value="{{ next }}" />
+                </form>
+                <h4>
+                    Don't have an account?
+                    <a href="{% url 'register' %}">Sign Up</a>
+                </h4>
+                {# Assumes you setup the password_reset view in your URLconf #}
             </div>
         </div>
-    </div>
-    {# Assumes you setup the password_reset view in your URLconf #}
-</div>
+    </main>
 </body>
 
 

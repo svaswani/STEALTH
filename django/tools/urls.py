@@ -7,6 +7,7 @@ urlpatterns = [
     url(r'^feed/$', views.feed, name='feed'),
     url(r'^login/$', views.login, name='login'),
     url(r'^chat/$', views.chat, name='chat'),
+    url(r'^about/$', views.about, name='about'),
     url(r'^register/$', views.register, name='register'),
     url(r'^resources/$', views.resources, name='resources'),
     url(r'^splash/$', views.splash, name='splash'),

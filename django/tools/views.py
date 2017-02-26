@@ -41,6 +41,9 @@ def add_comment(request, pk):
 def chat(request):
     return render(request, 'tools/chat.html')
 
+def about(request):
+    return render(request, 'tools/about.html')
+
 def resources(request):
     return render(request, 'tools/resources.html')
 

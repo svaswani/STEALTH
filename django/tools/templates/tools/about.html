@@ -1,57 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <title>About Us</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="../../static/css/nav.css">
-
-    <!-- Favicon -->
-    <link rel='shortcut icon' type='image/x-icon' href='../../static/images/favicon.ico' />
-</head>
-
-<body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
-                    <img alt="Brand" src="../../static/images/favicon-brand.png">
-                </a>
-
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="my-text"><a href="{% url 'index' %}">stealth</a></li>
-                </ul>
-                <div class="my-height">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li><a href="{% url 'feed' %}">feed</a></li>
-                        <li><a href="#">resources</a></li>
-                        <li><a href="#">chat</a></li>
-                        <li><a href="#">search</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">profile</a></li>
-                    </ul>
-                </div>
-            </div>
-    </nav>
+{% extends 'tools/base.html' %} {% block content %}
 
     <main>
         <div class="container">
@@ -114,4 +61,4 @@
 
 </body>
 
-</html>
+{% endblock %}
