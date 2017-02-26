@@ -1,11 +1,35 @@
-{% extends 'tools/base.html' %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../../static/css/splash.css">
+
+    <!-- Favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href='../../static/images/favicon.ico' />
+</head>
+
 <body>
-    <main class="container">
-        <div class="row my-map">
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12ZvP2DguiTJVKPDUbxBXnj4ioCM" width="100%" height="800px"></iframe>
+    <main>
+        <div class="background">
+        </div>
+        <div class="layer">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-4">
+                    <img alt="icon" src="../../static/images/favicon-splash.png">
+                        <h1>stealth</h1>
+                        <a href="{% url 'login' %}"><button class="log">log in &#124;</button></a>
+                        <a href="{% url 'register' %}"><button class="sign">sign up &#124;</button></a>
+                        <a href="{% url 'about' %}"><button class="about">about us </button></a>
+                </div>
+            </div>
         </div>
     </main>
 </body>
+
 </html>
-{% endblock %}
