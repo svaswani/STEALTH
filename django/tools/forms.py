@@ -7,19 +7,9 @@ from django.forms import ModelForm
 class PostForm(forms.ModelForm):
     class Meta:
         model = Post
-        title = forms.CharField()
-        description = forms.CharField()
+        title = forms.CharField(widget=forms.TextInput(attrs={'class': 'post-title'}))
+        description = forms.CharField(widget=forms.TextInput(attrs={'class': 'post-description'}))
         fields = ['title', 'description']
-
-        def __init__(self, *args, **kwargs):
-            super(ModelForm, self).__init__(*args, **kwargs)
-
-            for key in self.fields:
-                self.fields[key].required = True
-                self.fields[key].help_text = None
-
-            self.fields['title'].widget.attrs.update({'class': 'post-title'})
-            self.fields['description'].widget.attrs.update({'class': 'post-description'})
 
 class CommentForm(forms.ModelForm):
 
